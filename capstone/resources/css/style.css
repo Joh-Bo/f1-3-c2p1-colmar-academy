@@ -1,0 +1,503 @@
+html{
+  font-size: 14px;
+}
+body{
+  width: 100%
+}
+#container{
+  font-family: 'Open Sans', sans-serif;
+  color: #585858;
+  /*background-color: #FFF6F6;*/
+}
+
+.content-1 {
+  margin: auto;
+  padding: 2.2rem 1.7rem;
+}
+.content-1{
+  background-color: #D0D0D0;
+}
+
+.content-3{
+    background-color: #f1f1f1;
+}
+.content-2,
+.content-4{
+    background-color: #FFFFFF;
+}
+
+/*CSS for Header*/
+
+/*Heder logo and title*/
+header{
+  height: 4.5rem;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .title{
+  margin-left: 2.2rem;
+  font-size: 1.2rem;
+  padding: 1.7rem 0;
+  display: flex;
+  flex-direction: row;
+}
+header .title span:nth-child(2){
+  font-weight: bold;
+}
+header .title span:nth-child(3){
+  color: #C0C0C0;
+}
+header .title span img{
+  margin-top: -10px;
+}
+
+/* Header menu */
+ul{
+  margin-right: 1.7rem;
+  padding: 1.7rem 1.1rem;
+}
+header ul li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 1.1rem;
+}
+li a{
+  text-decoration: none;
+  color: #333333;
+}
+
+/* CSS for mobile on desktop*/
+#header-mobile,
+.image-mobile{
+  display: none;
+}
+
+/* CSS for banner section 1 */
+.learning_1{
+  display: flex;
+  flex-direction: row;
+}
+.block_1{
+  width: 60%;
+  margin-right: 2.8rem;
+}
+.block_1 img{
+  width: 100%;
+  display: block;
+  background-position: center;
+  background-size: cover;
+}
+.block_2{
+  width: 40%;
+  margin: 7.1rem auto;
+  text-align: left;
+}
+.block_2 p{
+  margin-bottom: 3.5rem;
+  width: 75%;
+}
+.block_2 p:nth-child(1){
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.block_2 p:nth-child(2){
+  font-weight: normal;
+  font-size: 1.7rem;
+  font-weight: normal;
+  line-height: normal;
+}
+.block_2 p:nth-child(3){
+  width: 50%;
+  padding: 0.5rem;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+  background-color: #606060;
+  float: left;
+
+}
+.block_2 p:nth-child(3) a,
+.block_2 p:nth-child(3) a:visited{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* CSS for section 2 - Keep practicing*/
+
+.content-2{
+
+}
+.learning_2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+}
+.practice{
+  width: 60%;
+  padding: 2.2rem 1.7rem;
+  border-right: 1px solid #C8C8C8;
+}
+
+.practice .image img{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.practice .text{
+  margin: 2.2rem 1.7rem 2.2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.practice .text span:nth-child(1){
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1.7rem;
+}
+.practice .text span:nth-child(2){
+  line-height: 1.5;
+  font-weight: lighter;
+}
+.practice .text span:nth-child(3){
+  margin-top: 2.2rem;
+}
+.learning_2 .course{
+  width: 30.2rem;
+  margin-top: 1.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.course .choice{
+  height: auto;
+  border-bottom: 1px solid #C8C8C8;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction row;
+}
+.course .choice:nth-child(3){
+  background-color: #C8C8C8;
+}
+.course .image {
+  width: 35%;
+}
+.choice .section {
+  width: 55%;
+  padding-top: 1.4rem;
+  padding-left: 1.4rem;
+  line-height: initial;
+  display: flex;
+  flex-direction: column;
+}
+.choice .image img{
+  width: 100%;
+}
+.choice .section .title{
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #333333;
+}
+.choice .section .text{
+  font-weight: lighter;
+  padding: 0.5rem 0;
+}
+.choice .section .read-more{
+  line-height: 5;
+  color: #66CCFF;
+
+}
+
+/* CSS for section 3 - Start Learning */
+.learning_3{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.learning_3 > .title{
+  width: 100%;
+  margin: 2.2rem auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.program{
+  width: 80%;
+  margin: auto;
+  padding-left: 17%;
+  padding-bottom: 2.2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.program .learning{
+  height: 20rem;
+  width: 20rem;
+  margin-right: 2.2rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 1.7rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.learning .title{
+  margin-top: 1.1rem;
+  margin-left: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.learning .course{
+  margin: 0.5rem 1.1rem;
+}
+.learning .description{
+  margin-left: 1.1rem;
+  margin-bottom: 1.7rem;
+  line-height: normal;
+}
+.learning .course,
+.learning .description{
+  font-weight: lighter;
+  color: #A0A0A0;
+}
+.program p img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* CSS for section 4 - Thesis*/
+
+.learning_4{
+  display: flex;
+  flex-direction: row;
+}
+.content-4 .title{
+  width: 100%;
+  margin: 2.2rem auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.video{
+  width: 60%;
+  margin: 0 1.7rem;
+  padding-bottom: 2.2rem;
+}
+.video-box-1{
+  padding-bottom: 1.7rem;
+}
+.video-box-2{
+  display: flex;
+  flex-direction: column;
+}
+.video-box-2 span:nth-child(1){
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+.video-box-2 span:nth-child(2){
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.thesis{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.thesis .choice{
+  width: 30.2rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: row;
+}
+.thesis .choice:nth-child(1){
+  background-color: #C8C8C8;
+}
+.thesis .choice img{
+  width: 35%;
+  padding: 1.1rem;
+}
+.choice .text .title{
+  font-size: 1.2rem;
+  margin-top: 2.2rem;
+  font-weight: 600;
+  color: #333333;
+  text-align: left;
+}
+.choice .text{
+  display: flex;
+  flex-direction: column;
+}
+.choice .text .description{
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+/* CSS for footer */
+footer{
+  border-top: 1px solid #BEBEBE;
+  padding-top: 1.1rem;
+  padding-left: 1.7rem;
+  padding-bottom: 3.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright{
+
+}
+.terms{
+    margin-left: 65%;
+}
+.terms span{
+  padding-right: 0.7rem;
+}
+
+/* Mobile CSS */
+@media screen and (max-width:480px){
+  #container{
+    overflow: hidden;
+  }
+  header .title,
+  header ul{
+    display: none;
+  }
+  #header-mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 1.1rem;
+
+    }
+    .content-1{
+      padding: 0;
+    }
+    .learning_1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .block_1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+    .block_2{
+      width: 100%;
+      margin: 2.2rem 1.1rem 0;
+    }
+    .block_2 p:nth-child(1){
+      width: 100%;
+    }
+    .block_2 p:nth-child(2){
+      width: 100%;
+      font-wieght: 600;
+    }
+    .block_2 p:nth-child(3){
+      width: 90%;
+      margin-bottom: 1.7rem;
+    }
+
+    /* section 2 */
+
+    .learning_2 .practice{
+      display: none;
+    }
+    .course .choice{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      border: none;
+    }
+    .course .choice:nth-child(3),
+    .learning_3{
+      background-color: #fff;
+    }
+    .learning_3{
+      border-top: 1px solid #E8E8E8;
+    }
+    .choice .image {
+      display: none;
+    }
+    .choice .image-mobile{
+      width: 100%;
+      display: block;
+
+    }
+    .choice .image-mobile img{
+      width: 90%;
+      display: block;
+      background-position: center;
+      background-size: cover;
+      padding: 1.1rem;
+    }
+    .learning img,
+    .learning .course,
+    .learning .description{
+      display: none;
+    }
+    .learning .title{
+      padding-left: 1.1rem 0 1.7rem
+      1.1rem;
+      margin-bottom: 0.6rem;
+    }
+    .program .learning{
+      height: auto;
+      background-color: #DCDCDC;
+      width: 90%;
+    }
+    .learning_3 .program{
+      width: 100%;
+      padding: 1.1rem;
+    }
+    .choice .section{
+      width: 90%;
+      margin-bottom: 1.1rem;
+    }
+    .choice .section .read-more{
+      line-height: normal;
+    }
+    .content-4{
+      border: 1px solid white;
+      border-top: 1px solid #E8E8E8;
+    }
+    .learning_4{
+      display:flex;
+      flex-direction: column;
+    }
+    .learning_4 .video{
+      width: 100%;
+      margin: 0;
+    }
+    .video{
+      padding: 0;
+    }
+    .video-box-2,
+    .thesis .choice{
+      display: none;
+    }
+    footer{
+      font-size: 0.9rem;
+      padding: 0;
+      border: none;
+    }
+    .copyright{
+      padding: 1.1rem !important;
+    }
+    .terms{
+      display: none;
+    }
+
+}
